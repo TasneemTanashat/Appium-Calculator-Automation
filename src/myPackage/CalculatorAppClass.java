@@ -50,9 +50,19 @@ public class CalculatorAppClass {
 	}
 
 	@AfterMethod
-	public void afterEachTest() throws InterruptedException {
+	public void afterEachTest() throws InterruptedException, IOException {
 
 		Thread.sleep(2000);
+		
+		Date mydate = new Date();
+
+		String filename = mydate.toString().replace(":", "-");
+
+		TakesScreenshot ts = (TakesScreenshot) driver;
+
+		File file = ts.getScreenshotAs(OutputType.FILE);
+
+		FileUtils.copyFile(file, new File("screenshots/" + filename + ".jpg"));
 
 		if (driver != null) { 
 			driver.quit();
@@ -119,15 +129,7 @@ public class CalculatorAppClass {
 
 				AllButtons.get(i).click();
 
-				Date mydate = new Date();
-
-				String filename = mydate.toString().replace(":", "-");
-
-				TakesScreenshot ts = (TakesScreenshot) driver;
-
-				File file = ts.getScreenshotAs(OutputType.FILE);
-
-				FileUtils.copyFile(file, new File("src/screenshots/" + filename + ".jpg"));
+				
 			}
 
 		}

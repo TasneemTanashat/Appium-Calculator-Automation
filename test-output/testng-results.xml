@@ -2,148 +2,148 @@
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-17T22:03:22 EET" name="Default suite" finished-at="2026-07-17T22:06:42 EET" duration-ms="200246">
+  <suite started-at="2026-07-17T22:47:14 EET" name="Default suite" finished-at="2026-07-17T22:50:38 EET" duration-ms="203927">
     <groups>
     </groups>
-    <test started-at="2026-07-17T22:03:22 EET" name="Default test" finished-at="2026-07-17T22:06:42 EET" duration-ms="200246">
-      <class name="Apps.App1">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:03:22 EET" name="mySetup" finished-at="2026-07-17T22:03:22 EET" duration-ms="32" status="PASS">
+    <test started-at="2026-07-17T22:47:14 EET" name="Default test" finished-at="2026-07-17T22:50:38 EET" duration-ms="203927">
+      <class name="myPackage.CalculatorAppClass">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:47:14 EET" name="mySetup" finished-at="2026-07-17T22:47:14 EET" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:03:22 EET" name="beforeEachTest" finished-at="2026-07-17T22:03:33 EET" duration-ms="10858" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:47:14 EET" name="beforeEachTest" finished-at="2026-07-17T22:47:25 EET" duration-ms="11182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="myfirstTest()[pri:1, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:03:33 EET" name="myfirstTest" finished-at="2026-07-17T22:03:37 EET" duration-ms="4264" status="PASS">
+        <test-method signature="myfirstTest()[pri:1, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:47:25 EET" name="myfirstTest" finished-at="2026-07-17T22:47:30 EET" duration-ms="4554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myfirstTest -->
-        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:03:37 EET" name="afterEachTest" finished-at="2026-07-17T22:03:40 EET" duration-ms="3140" status="PASS">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:47:30 EET" name="afterEachTest" finished-at="2026-07-17T22:47:34 EET" duration-ms="3946" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:03:40 EET" name="beforeEachTest" finished-at="2026-07-17T22:03:49 EET" duration-ms="9087" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:47:34 EET" name="beforeEachTest" finished-at="2026-07-17T22:47:43 EET" duration-ms="9146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="ClickOnAllDigits()[pri:2, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:03:49 EET" name="ClickOnAllDigits" finished-at="2026-07-17T22:03:59 EET" duration-ms="9427" status="PASS">
+        <test-method signature="ClickOnAllDigits()[pri:2, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:47:43 EET" name="ClickOnAllDigits" finished-at="2026-07-17T22:47:52 EET" duration-ms="9445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnAllDigits -->
-        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:03:59 EET" name="afterEachTest" finished-at="2026-07-17T22:04:02 EET" duration-ms="3225" status="PASS">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:47:52 EET" name="afterEachTest" finished-at="2026-07-17T22:47:56 EET" duration-ms="3725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:04:02 EET" name="beforeEachTest" finished-at="2026-07-17T22:04:11 EET" duration-ms="9298" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:47:56 EET" name="beforeEachTest" finished-at="2026-07-17T22:48:05 EET" duration-ms="8812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="ClickOnAllOddButtonsNumbers()[pri:2, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:04:11 EET" name="ClickOnAllOddButtonsNumbers" finished-at="2026-07-17T22:04:26 EET" duration-ms="14624" status="PASS">
+        <test-method signature="ClickOnAllOddButtonsNumbers()[pri:2, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:48:05 EET" name="ClickOnAllOddButtonsNumbers" finished-at="2026-07-17T22:48:16 EET" duration-ms="10542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnAllOddButtonsNumbers -->
-        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:04:26 EET" name="afterEachTest" finished-at="2026-07-17T22:04:29 EET" duration-ms="3336" status="PASS">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:48:16 EET" name="afterEachTest" finished-at="2026-07-17T22:48:19 EET" duration-ms="3646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:04:29 EET" name="beforeEachTest" finished-at="2026-07-17T22:04:38 EET" duration-ms="9000" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:48:19 EET" name="beforeEachTest" finished-at="2026-07-17T22:48:28 EET" duration-ms="8964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="testAddition()[pri:3, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:04:38 EET" name="testAddition" finished-at="2026-07-17T22:04:43 EET" duration-ms="4550" status="PASS">
+        <test-method signature="testAddition()[pri:3, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:48:28 EET" name="testAddition" finished-at="2026-07-17T22:48:33 EET" duration-ms="4601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddition -->
-        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:04:43 EET" name="afterEachTest" finished-at="2026-07-17T22:04:46 EET" duration-ms="2927" status="PASS">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:48:33 EET" name="afterEachTest" finished-at="2026-07-17T22:48:37 EET" duration-ms="3751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:04:46 EET" name="beforeEachTest" finished-at="2026-07-17T22:04:55 EET" duration-ms="8882" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:48:37 EET" name="beforeEachTest" finished-at="2026-07-17T22:48:46 EET" duration-ms="9106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="testSubtraction()[pri:4, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:04:55 EET" name="testSubtraction" finished-at="2026-07-17T22:04:59 EET" duration-ms="4401" status="PASS">
+        <test-method signature="testSubtraction()[pri:4, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:48:46 EET" name="testSubtraction" finished-at="2026-07-17T22:48:50 EET" duration-ms="4506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubtraction -->
-        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:04:59 EET" name="afterEachTest" finished-at="2026-07-17T22:05:02 EET" duration-ms="2900" status="PASS">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:48:50 EET" name="afterEachTest" finished-at="2026-07-17T22:48:54 EET" duration-ms="3712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:05:02 EET" name="beforeEachTest" finished-at="2026-07-17T22:05:11 EET" duration-ms="9296" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:48:54 EET" name="beforeEachTest" finished-at="2026-07-17T22:49:03 EET" duration-ms="9052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="testMultiplication()[pri:5, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:05:11 EET" name="testMultiplication" finished-at="2026-07-17T22:05:16 EET" duration-ms="4604" status="PASS">
+        <test-method signature="testMultiplication()[pri:5, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:49:03 EET" name="testMultiplication" finished-at="2026-07-17T22:49:07 EET" duration-ms="4478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiplication -->
-        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:05:16 EET" name="afterEachTest" finished-at="2026-07-17T22:05:19 EET" duration-ms="2993" status="PASS">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:49:07 EET" name="afterEachTest" finished-at="2026-07-17T22:49:11 EET" duration-ms="3603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:05:19 EET" name="beforeEachTest" finished-at="2026-07-17T22:05:28 EET" duration-ms="9407" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:49:11 EET" name="beforeEachTest" finished-at="2026-07-17T22:49:20 EET" duration-ms="8823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="testDivision()[pri:6, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:05:28 EET" name="testDivision" finished-at="2026-07-17T22:05:33 EET" duration-ms="4364" status="PASS">
+        <test-method signature="testDivision()[pri:6, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:49:20 EET" name="testDivision" finished-at="2026-07-17T22:49:25 EET" duration-ms="4891" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDivision -->
-        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:05:33 EET" name="afterEachTest" finished-at="2026-07-17T22:05:36 EET" duration-ms="3011" status="PASS">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:49:25 EET" name="afterEachTest" finished-at="2026-07-17T22:49:28 EET" duration-ms="3610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:05:36 EET" name="beforeEachTest" finished-at="2026-07-17T22:05:45 EET" duration-ms="9577" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:49:28 EET" name="beforeEachTest" finished-at="2026-07-17T22:49:37 EET" duration-ms="8830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="testClearButton()[pri:7, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:05:45 EET" name="testClearButton" finished-at="2026-07-17T22:05:48 EET" duration-ms="2367" status="PASS">
+        <test-method signature="testClearButton()[pri:7, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:49:37 EET" name="testClearButton" finished-at="2026-07-17T22:49:40 EET" duration-ms="2783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClearButton -->
-        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:05:48 EET" name="afterEachTest" finished-at="2026-07-17T22:05:50 EET" duration-ms="2968" status="PASS">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:49:40 EET" name="afterEachTest" finished-at="2026-07-17T22:49:44 EET" duration-ms="3684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:05:50 EET" name="beforeEachTest" finished-at="2026-07-17T22:05:59 EET" duration-ms="8875" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:49:44 EET" name="beforeEachTest" finished-at="2026-07-17T22:49:53 EET" duration-ms="8951" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="testDeleteButton()[pri:8, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:05:59 EET" name="testDeleteButton" finished-at="2026-07-17T22:06:03 EET" duration-ms="3701" status="PASS">
+        <test-method signature="testDeleteButton()[pri:8, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:49:53 EET" name="testDeleteButton" finished-at="2026-07-17T22:49:56 EET" duration-ms="3645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteButton -->
-        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:06:03 EET" name="afterEachTest" finished-at="2026-07-17T22:06:06 EET" duration-ms="3022" status="PASS">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:49:56 EET" name="afterEachTest" finished-at="2026-07-17T22:50:00 EET" duration-ms="3647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:06:06 EET" name="beforeEachTest" finished-at="2026-07-17T22:06:15 EET" duration-ms="9359" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:50:00 EET" name="beforeEachTest" finished-at="2026-07-17T22:50:09 EET" duration-ms="8797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="testDivisionByZero()[pri:9, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:06:15 EET" name="testDivisionByZero" finished-at="2026-07-17T22:06:20 EET" duration-ms="4354" status="PASS">
+        <test-method signature="testDivisionByZero()[pri:9, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:50:09 EET" name="testDivisionByZero" finished-at="2026-07-17T22:50:13 EET" duration-ms="4577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDivisionByZero -->
-        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:06:20 EET" name="afterEachTest" finished-at="2026-07-17T22:06:23 EET" duration-ms="2954" status="PASS">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:50:13 EET" name="afterEachTest" finished-at="2026-07-17T22:50:17 EET" duration-ms="3782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:06:23 EET" name="beforeEachTest" finished-at="2026-07-17T22:06:32 EET" duration-ms="9008" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:50:17 EET" name="beforeEachTest" finished-at="2026-07-17T22:50:26 EET" duration-ms="9135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="testDecimalCalculation()[pri:10, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:06:32 EET" name="testDecimalCalculation" finished-at="2026-07-17T22:06:39 EET" duration-ms="7293" status="PASS">
+        <test-method signature="testDecimalCalculation()[pri:10, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:50:26 EET" name="testDecimalCalculation" finished-at="2026-07-17T22:50:34 EET" duration-ms="8177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDecimalCalculation -->
-        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:Apps.App1@6f03482]" started-at="2026-07-17T22:06:39 EET" name="afterEachTest" finished-at="2026-07-17T22:06:42 EET" duration-ms="2990" status="PASS">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:myPackage.CalculatorAppClass@6f03482]" started-at="2026-07-17T22:50:34 EET" name="afterEachTest" finished-at="2026-07-17T22:50:38 EET" duration-ms="3668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-      </class> <!-- Apps.App1 -->
+      </class> <!-- myPackage.CalculatorAppClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

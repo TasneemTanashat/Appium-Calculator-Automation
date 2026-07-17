@@ -3,13 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Apps.App1">
+      <class name="myPackage.CalculatorAppClass">
         <methods>
           <include name="beforeEachTest"/>
-          <include name="testDecimalCalculation"/>
+          <include name="testClearButton"/>
+          <include name="testMultiplication"/>
+          <include name="afterEachTest"/>
+          <include name="testSubtraction"/>
+          <include name="testDivision"/>
+          <include name="ClickOnAllOddButtonsNumbers"/>
+          <include name="testDivisionByZero"/>
+          <include name="ClickOnAllDigits"/>
+          <include name="testAddition"/>
+          <include name="testDeleteButton"/>
+          <include name="myfirstTest"/>
           <include name="mySetup"/>
+          <include name="testDecimalCalculation"/>
         </methods>
-      </class> <!-- Apps.App1 -->
+      </class> <!-- myPackage.CalculatorAppClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
