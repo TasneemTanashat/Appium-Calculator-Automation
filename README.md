@@ -100,4 +100,3 @@ Screenshots are automatically saved after every test execution for reporting and
 ## Author
 
 Eng. Tasneem Tanashat
-ُىل
