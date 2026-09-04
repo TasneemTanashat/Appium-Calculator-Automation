@@ -92,7 +92,7 @@ public class CalculatorAppClass {
 		int ResultsAsNumber = Integer.parseInt(Results);
 		int ExpectedFinalResultAsNum = 9 * 5;
 
-		AssertJUnit.assertEquals(ResultsAsNumber, ExpectedFinalResultAsNum);
+		Assert.assertEquals(ResultsAsNumber, ExpectedFinalResultAsNum);
 
 	}
 
