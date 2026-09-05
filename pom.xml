@@ -44,11 +44,7 @@
 		</dependency>
 
 
-		<dependency>
-			<groupId>API-TesingProject</groupId>
-			<artifactId>API-TesingProject</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		
 	</dependencies>
 
 
