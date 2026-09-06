@@ -11,11 +11,11 @@ The project uses **Appium with UiAutomator2** to interact with Android UI elemen
 
 - Java
 - Appium
-- Selenium WebDriver
 - TestNG
 - Maven
 - UiAutomator2
 - Android Device / Emulator
+- Selenium WebDriver
 - Eclipse IDE
 
 ## Test Scenarios
