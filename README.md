@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an automated mobile testing project developed using **Appium, Java, Selenium WebDriver, and TestNG**.  
+This project is an automated mobile testing project developed using **Appium, Java, and TestNG**.  
 It automates functional test scenarios for the Android Calculator application, including arithmetic operations, button interactions, and validation of calculation results.
 
 The project uses **Appium with UiAutomator2** to interact with Android UI elements and execute automated test cases on an Android device.
